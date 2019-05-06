@@ -13,7 +13,6 @@ class CustomScene: SKScene {
     let crab = SKSpriteNode()
     
     
-    // Add and center child, initializing animation sequence
     override func sceneDidLoad() {
         super.sceneDidLoad()
         addChild(crab)
